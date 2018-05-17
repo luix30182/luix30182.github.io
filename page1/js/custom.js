@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.item').css("height",$( window ).height()),
+	/*$('.item').css("height",$( window ).height()),
 	$('.item').css("width",$( window ).width()),
 	$('.out').css("width",$( window ).width()),
 	$('.active').css("width",$( window ).width()),
@@ -13,5 +13,11 @@ $(document).ready(function() {
 		dots:false,
 		//autoplay:true,
 		//autoplaySpeed:100
-	})
+	})*/
+	$(window).resize(function(){
+		if ($(window).width() <= 800) {  
+			$('.col-event').removeClass('col-md-8').addClass('col-md-12')
+		}     
+	
+	});
 });

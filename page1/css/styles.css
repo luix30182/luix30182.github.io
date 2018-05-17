@@ -127,15 +127,18 @@
     .jumbo-transbox-in {
         margin-top: 30px;
     }
-    .col-image img {
+    .col-image {
         display: none;
+    }
+    .event-row div:last-child{
+        padding-bottom: 15px;
     }
 }
 @media only screen and (max-width: 1025px) {
     .event-row {
         color: #fff;
         margin: 15px auto;
-        padding: 20px 0;
+        padding: 10px 0;
     }
     .col-image{
         margin: 0;
