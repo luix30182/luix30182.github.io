@@ -14,10 +14,7 @@ $(document).ready(function() {
 		//autoplay:true,
 		//autoplaySpeed:100
 	})*/
-	$(window).resize(function(){
 		if ($(window).width() <= 800) {  
 			$('.col-event').removeClass('col-md-8').addClass('col-md-12')
 		}     
-	
-	});
 });
