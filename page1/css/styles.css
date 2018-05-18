@@ -9,7 +9,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url(../img/asd3.jpg);
+    background-image: url(../img/bg-home.jpg);
     margin: 0;
     padding: 0;
     height: 50%;
@@ -29,7 +29,10 @@
     width: 100px;
     height: 100px;
 }
-
+.img-jumbotron-large {
+    width: 150px;
+    height: 100px;
+}
 .jumbo-transbox-in {
     margin-top: 200px;
 }
@@ -150,4 +153,29 @@
         width: 100%;
         max-height: 200px;
     }
+}
+
+/*members*/
+
+
+.team-member{
+	margin: 0 15px;
+}
+.team-member-info{
+	padding: 10px 0 30px 0;
+
+}
+h4.team-member-name{
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding-top: 2px;
+}
+h4.team-member-designation{
+	color: #34c6d3;
+	font-size: 15px;
+	font-weight: 700;
+	font-style: italic;
+	letter-spacing: 1px;
+	margin-top: 5px;
 }
