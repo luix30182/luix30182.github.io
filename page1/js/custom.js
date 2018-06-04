@@ -9,6 +9,7 @@ $(document).ready(function() {
 			$('.col-event').removeClass('col-md-12').addClass('col-md-8')
 		}   
 	});
+	$('#join-us-diagonal').css("height",$(window).height());
 });
 
 
