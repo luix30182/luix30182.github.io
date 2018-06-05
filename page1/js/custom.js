@@ -9,7 +9,9 @@ $(document).ready(function() {
 			$('.col-event').removeClass('col-md-12').addClass('col-md-8')
 		}   
 	});
-	$('#join-us-diagonal').css("height",$(window).height());
+	var wHeight = $(window).height();
+	var pborder = wHeight + 'px solid transparent';
+	$('#join-us-diagonal').css("border-top",pborder);
 });
 
 
