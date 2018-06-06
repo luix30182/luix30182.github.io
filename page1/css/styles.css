@@ -235,6 +235,7 @@ h4.team-member-designation {
     .event-row div:last-child {
         padding-bottom: 15px;
     }
+    
 }
 
 @media only screen and (max-width: 1025px) {
@@ -264,4 +265,8 @@ h4.team-member-designation {
         height: 100px;
         width: 100%;
     }
+    .row.no-gutters img{
+        height: 200px;
+        width: 100%;
+   }
 }
