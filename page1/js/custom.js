@@ -1,6 +1,18 @@
 $(document).ready(function() {
+	$(function(){
+		$('#gallery').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			gallery:{
+				enabled: true
+			}
+		});
+	});
 	if ($(window).width() <= 800) {  
 		$('.col-event').removeClass('col-md-8').addClass('col-md-12')
+	} 
+	if ($(window).width() <= 1025) {  
+		$('#join-us-diagonal').css("display",'none');
 	} 
 	$(window).resize(function(){
 		if ($(window).width() <= 800) {  
